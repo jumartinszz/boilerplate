@@ -1,6 +1,5 @@
 import { View, Text } from 'react-native';
 import Title from '../../components/Title';
-import { StyleSheet } from 'react-native';
 import styles from './styles';
 
 export default function Home() {
