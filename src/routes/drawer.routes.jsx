@@ -8,6 +8,8 @@ const DrawerRoutes = () => {
   return (
     <Drawer.Navigator screenOptions={{ headerShown: false }}>
       <Drawer.Screen name="Home" component={Home} />
+      <Drawer.Screen name="Profile" component={Profile} />
+      <Drawer.Screen name="Category" component={Category} />
     </Drawer.Navigator>
   );
 };

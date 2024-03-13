@@ -1,10 +1,11 @@
 import { View, Text } from 'react-native';
 import Title from '../../components/Title';
-import React from 'react';
+import { StyleSheet } from 'react-native';
+import styles from './styles';
 
 export default function Home() {
   return (
-    <View style={StyleSheet.container}>
+    <View style={styles.container}>
       <Title title={"Home - Hello today birthday felipe dev"}/>
     </View>
   )
